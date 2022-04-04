@@ -1,0 +1,14 @@
+/* Apartment Rera Number CSS */
+
+
+.rera-number {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.rera-number i {
+    margin-right: 1rem;
+    color: var(--grayColor);
+    font-size: 1.5rem;
+}

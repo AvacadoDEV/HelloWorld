@@ -1,0 +1,9 @@
+.apartment-main-div .apartment-map {
+    grid-area: map;
+    margin-bottom: 1.5rem;
+}
+
+.apartment-main-div .apartment-map img{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,9 @@
+/* Option 1: Apartment Description */
+@import "./apartment/InfoSectionHelper/option1.css";
+/* Option 2: Apartment Features */
+@import "./apartment/InfoSectionHelper/option2.css";
+/* Option 3: Apartment Rera Number */
+@import "./apartment/InfoSectionHelper/option3.css";
+
+/* Media Queries */
+@import "./apartment/_mediaQ/infoSectionMQ.css";

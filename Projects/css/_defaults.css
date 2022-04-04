@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* Disable text selaction */
+    user-select: none
+}
+
+:root{
+    --grayColor: #929292;
+}

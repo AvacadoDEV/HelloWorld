@@ -1,0 +1,11 @@
+@import './css/_defaults.css';
+@import './css/infoSection.css';
+@import './css/mapSection.css';
+@import './css/resourcesSection.css';
+
+
+
+
+.apartment-main-div {
+    padding: 2rem;
+}

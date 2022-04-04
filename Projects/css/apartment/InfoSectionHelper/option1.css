@@ -1,0 +1,111 @@
+/* Apartement Information CSS */
+
+
+/* Mobile View */
+.apartment-info {
+    border: 5px solid var(--grayColor);
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+    margin: 0 auto;
+    padding: 1rem 2rem 0;
+    margin-bottom: 2rem;
+}
+
+.apartment-info-section {
+    border-bottom: 2.5px solid var(--grayColor);
+    max-height: 40px;
+    transition: max-height 0.3s ease-in-out;
+    padding: 0.2rem;
+    margin-bottom: 0.7rem;
+    overflow: hidden;
+}
+
+.info-title {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: var(--grayColor);
+    font-weight: 600;
+}
+.info-title:hover {
+    cursor: pointer;
+}
+
+.info-title i {
+    margin-right: 10px;
+}
+
+.info-description {
+    line-height: 1.7;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.04rem;
+    word-spacing: 0.05rem;
+    color: #242424;
+}
+
+.apartment-info .showSection {
+    max-height: 1000px;
+}
+
+.apartment-info .rm-bottom {
+    border-bottom: none;
+}
+
+.apartment-info .apartment-info-section .active {
+    color: black;
+}
+
+
+
+/* Web View */
+.apartment-info .web {
+    display: none;
+}
+
+.web .menu-option {
+    position: relative;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.web .menu-option p {
+    border-bottom: 1px solid white;
+    padding-bottom: 0.4rem;
+}
+
+.web .menu-option p:hover {
+    cursor: pointer;
+}
+
+.web .apartement-info-result {
+    max-height: 120px;
+    overflow-y: scroll;
+    margin-right: 1rem;
+    padding-right: 0.4rem;
+}
+
+.web .break-line::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    right: 0;
+    bottom: 0;
+    height: 15px;
+    width: 2px;
+    background: var(--grayColor);
+    display: block;
+    transition: .3s ease;
+}
+
+.web .apartement-info-result::-webkit-scrollbar {
+    width: 5px;
+}
+
+.web .apartement-info-result::-webkit-scrollbar-thumb {
+    background-color: #404040;
+    border-radius: 5px;
+}

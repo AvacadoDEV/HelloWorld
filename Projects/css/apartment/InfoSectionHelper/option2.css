@@ -1,0 +1,32 @@
+/* Apartement Features CSS */
+
+
+.amenities-options-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.amenities-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #2c2c2c;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.amenities-option:hover {
+    cursor: pointer;
+}
+
+.amenities-option i {
+    font-size: 2rem;
+}
+
+.amenities-option .option-title {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+}
